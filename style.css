@@ -1,0 +1,313 @@
+/* ===============================
+   GLOBAL SETTINGS
+================================ */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Segoe UI", Arial, sans-serif;
+}
+
+
+body{
+
+    background:#f4f7fb;
+    color:#222;
+    text-align:center;
+
+}
+
+
+/* ===============================
+   HEADER SECTION
+================================ */
+
+header{
+
+    background:linear-gradient(135deg,#17365d,#285b91);
+    color:white;
+    padding:50px 20px;
+
+}
+
+
+header h1{
+
+    font-size:36px;
+    font-weight:700;
+    letter-spacing:0.5px;
+
+}
+
+
+header h2{
+
+    margin-top:12px;
+    font-size:25px;
+    font-weight:500;
+
+}
+
+
+header h3{
+
+    margin-top:15px;
+    font-size:22px;
+    font-weight:400;
+
+}
+
+
+header p{
+
+    margin-top:25px;
+    font-size:18px;
+    line-height:1.8;
+
+}
+
+
+header strong{
+
+    font-size:24px;
+
+}
+
+
+
+/* ===============================
+   INTRO SECTION
+================================ */
+
+
+.intro{
+
+    width:80%;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:
+    0 5px 20px rgba(0,0,0,0.12);
+
+}
+
+
+.intro h2{
+
+    color:#17365d;
+    margin-bottom:15px;
+    font-size:28px;
+
+}
+
+
+.intro p{
+
+    font-size:17px;
+    line-height:1.8;
+
+}
+
+
+
+/* ===============================
+   NOTES SECTION
+================================ */
+
+
+.notes{
+
+    width:90%;
+    margin:auto;
+
+}
+
+
+.notes > h2{
+
+    font-size:32px;
+    color:#17365d;
+    margin-bottom:35px;
+
+}
+
+
+
+/* CARD GRID */
+
+.card-container{
+
+    display:flex;
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:30px;
+
+}
+
+
+
+/* CARD DESIGN */
+
+.card{
+
+    background:white;
+
+    width:300px;
+
+    min-height:230px;
+
+    padding:30px 25px;
+
+    border-radius:18px;
+
+    box-shadow:
+    0 5px 18px rgba(0,0,0,0.12);
+
+    transition:0.3s ease;
+
+}
+
+
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:
+    0 10px 25px rgba(0,0,0,0.18);
+
+}
+
+
+
+.card h3{
+
+    color:#17365d;
+
+    font-size:22px;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.card p{
+
+    font-size:16px;
+
+    line-height:1.6;
+
+    min-height:60px;
+
+}
+
+
+
+/* PDF BUTTON */
+
+.card a{
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    padding:12px 30px;
+
+    background:#17365d;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:30px;
+
+    font-size:16px;
+
+    transition:0.3s;
+
+}
+
+
+
+.card a:hover{
+
+    background:#0b223d;
+
+}
+
+
+
+/* ===============================
+   FOOTER
+================================ */
+
+
+footer{
+
+    margin-top:60px;
+
+    background:#17365d;
+
+    color:white;
+
+    padding:25px;
+
+    font-size:16px;
+
+}
+
+
+
+/* ===============================
+   MOBILE RESPONSIVE
+================================ */
+
+
+@media(max-width:768px){
+
+
+header h1{
+
+    font-size:26px;
+
+}
+
+
+header h2{
+
+    font-size:20px;
+
+}
+
+
+header h3{
+
+    font-size:18px;
+
+}
+
+
+
+.intro{
+
+    width:90%;
+
+}
+
+
+
+.card{
+
+    width:90%;
+
+}
+
+
+}
